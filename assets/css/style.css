@@ -375,8 +375,8 @@ h4 {
 }
 @media screen and (max-width: 400px) {
   .contGrande > img {
-    width: 33%;
-    height: auto;
+    width: 30%;
+    height: 25%;
   }
   .author img {
     margin-right: 3px;
@@ -389,6 +389,14 @@ h4 {
   }
   .number {
     font-size: 25px;
+  }
+  .contGrande {
+    align-items: flex-end;
+  }
+  .ma {
+    width: 15px;
+    left: 170px;
+    bottom: -5px;
   }
 }
 @media screen and (max-width: 334px) {
@@ -409,5 +417,13 @@ h4 {
   }
   nav li {
     padding-right: 0;
+  }
+  .ma {
+    width: 15px;
+    left: 150px;
+    bottom: 65px;
+  }
+  .contGrande > img {
+    width: 40%;
   }
 }
