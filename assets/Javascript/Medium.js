@@ -3,7 +3,10 @@ window.onscroll = function () {
 };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+  if (
+    document.body.scrollTop > 310 ||
+    document.documentElement.scrollTop > 310
+  ) {
     document.getElementById("started").style.backgroundColor = "#1a8917";
     document.getElementById("nav").style.backgroundColor = "rgb(255,255,255";
   } else {
