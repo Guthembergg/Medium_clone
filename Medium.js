@@ -21,25 +21,24 @@ var mElements = Array.from(arr);
 
 setInterval(() => {
   // Choose a random number of M elements to hide
-  let numToHide = Math.floor(Math.random() * mElements.length);
+  let lengthTime = mElements.length / 2;
+  let lengthTime2 = mElements.length / 2;
 
   // Hide the chosen elements
-  for (let i = 1; i < numToHide; i++) {
-    let num = Math.floor(Math.random() * mElements.length);
-    mElements[num].style.opacity = "0";
-  }
+
+  let num = Math.floor(Math.random() * lengthTime);
+  mElements[num].style.opacity = "0";
 
   // Choose a random interval of time to wait before showing the elements again
-  let showInterval = Math.floor(Math.random() * 5000);
+  let showInterval = Math.floor(Math.random() * 7000);
 
   setTimeout(() => {
     // Show the hidden elements again
-    for (let i = 1; i < numToHide; i++) {
-      let num2 = Math.floor(Math.random() * mElements.length);
-      mElements[num2].style.opacity = "1";
-    }
+
+    let num2 = Math.floor(Math.random() * lengthTime2);
+    mElements[num2].style.opacity = "1";
   }, showInterval);
-}, 5000);
+}, 610);
 
 // let firstG = document.getElementById("id_G");
 // var ArrG = Array.from(firstG);
