@@ -4,10 +4,7 @@ window.onscroll = function () {
 };
 
 function scrollFunction() {
-  if (
-    document.body.scrollTop > 460 ||
-    document.documentElement.scrollTop > 460
-  ) {
+  if (document.documentElement.scrollTop > 460) {
     document.getElementById("started").style.backgroundColor = "#1a8917";
     document.getElementById("nav").style.backgroundColor = "rgb(255,255,255";
   } else {
