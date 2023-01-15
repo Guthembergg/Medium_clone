@@ -1,3 +1,4 @@
+// when the window is scrolled past the hero section in the header opens my function to change the nav color and the get started button
 window.onscroll = function () {
   scrollFunction();
 };
@@ -15,9 +16,8 @@ function scrollFunction() {
   }
 }
 
-//let svg = document.querySelectorAll("svg");
 let arr = document.getElementsByTagName("path");
-var mElements = Array.from(arr);
+let mElements = Array.from(arr);
 
 setInterval(() => {
   let lengthTime = mElements.length / 2;
