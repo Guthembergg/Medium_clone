@@ -34,4 +34,4 @@ setInterval(() => {
     let num2 = Math.floor(Math.random() * lengthTime);
     mElements[num2].style.opacity = "1";
   }, showInterval);
-}, 100);
+}, 80);
