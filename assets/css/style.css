@@ -423,10 +423,13 @@ h4 {
   }
   .author {
     width: 200px;
+    font-size: 9px;
   }
-  .author p {
-    width: 200px;
+  .author img {
+    width: 20px;
+    margin-right: 5px;
   }
+
   .titleTrending > p {
     margin-left: 20px;
   }
