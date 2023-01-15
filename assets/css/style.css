@@ -218,6 +218,7 @@ h3 > svg {
   color: rgb(153, 152, 152);
   margin-top: 0;
   width: auto;
+  font-size: 13px;
 }
 .boxAll {
   display: flex;
@@ -332,7 +333,7 @@ h4 {
     width: 400px;
   }
 
-  span {
+  header > span {
     font-size: 15px;
   }
   #scritte_M {
