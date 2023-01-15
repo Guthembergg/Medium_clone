@@ -277,6 +277,11 @@ h4 {
   font-size: 11px;
 }
 
+@media screen and (max-width: 1200px) {
+  #scritte_M {
+    width: 600px;
+  }
+}
 @media screen and (max-width: 1000px) {
   .card {
     width: 50%;
@@ -326,11 +331,21 @@ h4 {
     font-size: 80px;
     width: 400px;
   }
-  #scritte_M {
-    display: none;
-  }
+
   span {
     font-size: 15px;
+  }
+  #scritte_M {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    justify-content: center;
+  }
+  #scritte_M {
+    display: none;
   }
 }
 @media screen and (max-width: 600px) {
@@ -370,6 +385,7 @@ h4 {
 @media screen and (max-width: 500px) {
   h3 {
     font-size: 8px;
+    margin-top: 5px;
   }
   .typeArticle {
     width: 20%;
@@ -399,8 +415,27 @@ h4 {
     font-size: 4em;
     width: 100%;
   }
+  .contCard {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .contCard > .card {
+    width: 50%;
+    transform: scale(1.5);
+    margin-left: 15%;
+    margin-bottom: 50px;
+  }
+  .author {
+    width: 200px;
+  }
+  .author p {
+    width: 200px;
+  }
+  .titleTrending > p {
+    margin-left: 20px;
+  }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
   .contGrande > img {
     width: 30%;
     height: 25%;
@@ -425,6 +460,14 @@ h4 {
     left: 170px;
     bottom: -5px;
   }
+  .contCard > .card {
+    transform: scale(1.35);
+  }
+}
+@media screen and (max-width: 386px) {
+  .author {
+    width: 140px;
+  }
 }
 @media screen and (max-width: 350px) {
   nav ul {
@@ -432,6 +475,7 @@ h4 {
   }
   h1 {
     font-size: 50px;
+    width: 100%;
   }
   header p {
     font-size: 10px;
