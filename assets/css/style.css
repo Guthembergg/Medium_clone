@@ -333,8 +333,8 @@ h4 {
     width: 400px;
   }
 
-  header > span {
-    font-size: 15px;
+  .curious > span {
+    font-size: 14px;
   }
   #scritte_M {
     width: 400px;
@@ -494,7 +494,7 @@ h4 {
   .contGrande > img {
     width: 40%;
   }
-  span {
+  .curious > span {
     font-size: 12px;
   }
   .hero p {
